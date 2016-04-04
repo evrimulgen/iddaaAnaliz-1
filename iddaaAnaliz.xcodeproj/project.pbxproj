@@ -402,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iddaaAnaliz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aucorp.iddaaAnaliz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iddaaAnaliz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aucorp.iddaaAnaliz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +486,7 @@
 				D2AF9FE41CB2A54D00EFD35A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2AF9FE51CB2A54D00EFD35A /* Build configuration list for PBXNativeTarget "iddaaAnalizTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +495,7 @@
 				D2AF9FE71CB2A54D00EFD35A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2AF9FE81CB2A54D00EFD35A /* Build configuration list for PBXNativeTarget "iddaaAnalizUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +504,7 @@
 				D2AF9FEA1CB2A54D00EFD35A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
