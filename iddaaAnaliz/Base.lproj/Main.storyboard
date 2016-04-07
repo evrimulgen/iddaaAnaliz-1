@@ -27,7 +27,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Some text here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ToZ-Bd-dbq">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Some text here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ToZ-Bd-dbq">
                                         <rect key="frame" x="0.0" y="33" width="560" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -36,6 +36,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngT-ub-Eoy">
                                         <rect key="frame" x="0.0" y="75" width="66" height="30"/>
                                         <state key="normal" title="Change It"/>
+                                        <connections>
+                                            <action selector="changeButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rnn-hN-eVc"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -51,6 +54,10 @@
                             <constraint firstItem="vdt-jt-mb3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="ttM-qW-h57"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mealNameLabel" destination="Wts-xR-Mk8" id="MbE-V7-pA2"/>
+                        <outlet property="nameTextField" destination="ToZ-Bd-dbq" id="1H8-lB-lqy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
